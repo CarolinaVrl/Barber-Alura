@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  
+  background-color: #cccc;
+  
+}
+img {
+  width: 100%;
+}
+
+h1 {
+  padding: 30px;
+}
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.mision {
+  font-size: 20px;
+}
+
+.mision strong {
+  color: red;
+}
+
+.diferenciales{
+  background: #ffffff;
+}
+
+.item_diferencial{
+  font-style:italic;
+}
