@@ -1,6 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
 header{
     background: #bbbb;
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 
+nav ul{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+/* -------------------------------------main--------------------------- */
+.products{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    
+
+
+}
+
+.products li{
+    list-style: none;
+    border: #000000 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+}
+.products li:hover{
+    border: #c78c19 2px solid;
+    cursor: pointer;
+}
+.product-price{
+    font-size: 20px;
+    font-weight: bold;
+}
