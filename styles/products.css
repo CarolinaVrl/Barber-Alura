@@ -58,6 +58,14 @@ nav a:hover{
 .products li:hover{
     border: #c78c19 2px solid;
     cursor: pointer;
+   
+    
+}
+.products li:hover h2{
+    font-size: 33px;
+}
+.products li:active{
+    border-color: #088c19;
 }
 .product-price{
     font-size: 20px;
