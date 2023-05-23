@@ -33,8 +33,15 @@ h2{
 
 .diferenciales{
   background: #ffffff;
+  display: flex;
 }
-
+.diferenciales h2{
+  text-align: center;
+}
 .item_diferencial{
   font-style:italic;
+}
+
+.imagenDiferencial{
+  width: 50%;
 }
