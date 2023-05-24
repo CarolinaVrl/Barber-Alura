@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/contact.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/contact.css" />
     <title>Contact</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1><img src="/assets/imagenes/logo.png" alt=""></h1>
-        <nav>
-            <ul>
-                <li><a href=""> Inicio</a></li>
-                <li><a href=""> Productos</a></li>
-                <li><a href=""> Contacto</a></li>
-            </ul>
-        </nav>
-        
+      <h1><img src="/assets/imagenes/logo.png" alt="" /></h1>
+      <nav>
+        <ul>
+          <li><a href=""> Inicio</a></li>
+          <li><a href=""> Productos</a></li>
+          <li><a href=""> Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <form action="">
-            <label for="fullname">Nombre Completo</label>
-            <input id="fullname" type="text">
-            <label for="phone">Telefono</label>
-            <input id="phone" type="text">
-            <label for="email">Correo Electronico</label>
-            <input id="email" type="text">
-            <label for="messafe">Mensaje</label>
-            <textarea name="" id="message" cols="30" rows="10"></textarea>
-            <div>
-                <h3>¿Como desea ser contactado?</h3>
-                <label for="contact-email">Email</label>
-                <input type="radio" id="contact-email" name="contact">
-                <label for="contact-phone">Telefono</label>
-                <input type="radio" id="contact-phone" name="contact">
-                <label for="contact-whatsapp">WhatsApp</label>
-                <input type="radio" id="contact-whatsapp" name="contact">
-            </div>
-            <h3>¿Le gustaría recibir noticias de la barbería?</h3>
-            <input type="checkbox">
-            <input type="button" value="Enviar Formulario">
-        </form>
+      <form action="">
+        <label for="fullname">Nombre Completo</label>
+        <input id="fullname" type="text" />
+        <label for="phone">Telefono</label>
+        <input id="phone" type="text" />
+        <label for="email">Correo Electronico</label>
+        <input id="email" type="text" />
+        <label for="messafe">Mensaje</label>
+        <textarea name="" id="message" cols="5" rows="10"></textarea>
+        <div>
+          <h3>¿Como desea ser contactado?</h3>
+          <div class="contact">
+            <label for="contact-email">
+              <input type="radio" id="contact-email" name="contact" />
+              Email
+            </label>
+
+            <label for="contact-phone">
+              <input type="radio" id="contact-phone" name="contact" />
+              Telefono
+            </label>
+
+            <label for="contact-whatsapp">
+              <input type="radio" id="contact-whatsapp" name="contact" />
+              WhatsApp
+            </label>
+          </div>
+        </div>
+        <div class="check">
+          <input type="checkbox" />
+          <h3>¿Le gustaría recibir noticias de la barbería?</h3>
+        </div>
+
+        <input type="button" value="Enviar Formulario" />
+      </form>
     </main>
     <footer>
-        <img src="/assets/imagenes/logo-blanco.png" alt="">
-        <p>&copy Copyright Barbería Alura - 2020</p>
+      <img src="/assets/imagenes/logo-blanco.png" alt="" />
+      <p>&copy Copyright Barbería Alura - 2020</p>
     </footer>
-    
-</body>
+  </body>
 </html>
