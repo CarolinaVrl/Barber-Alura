@@ -21,11 +21,11 @@
     <main>
       <form action="">
         <label for="fullname">Nombre Completo</label>
-        <input id="fullname" type="text" />
+        <input id="fullname" required type="text" />
         <label for="phone">Telefono</label>
-        <input id="phone" type="tel" />
+        <input id="phone" required type="tel" placeholder="(00) 0000 0000" />
         <label for="email">Correo Electronico</label>
-        <input id="email" type="email" />
+        <input id="email" required type="email" placeholder="email@domino.com" />
         <label for="messafe">Mensaje</label>
         <textarea name="" id="message" cols="5" rows="10"></textarea>
         <div>
@@ -42,7 +42,7 @@
             </label>
 
             <label for="contact-whatsapp">
-              <input type="radio" id="contact-whatsapp" name="contact" />
+              <input type="radio" id="contact-whatsapp" name="contact" checked />
               WhatsApp
             </label>
           </div>
@@ -56,11 +56,11 @@
           </select>
         </div>
         <div class="check">
-          <input id="check" type="checkbox" />
+          <input id="check" type="checkbox" checked/>
           <h3>¿Le gustaría recibir noticias de la barbería?</h3>
         </div>
 
-        <input type="button" value="Enviar Formulario" />
+       <button type="submit">Enviar Formulario</button>
       </form>
     </main>
     <footer>
