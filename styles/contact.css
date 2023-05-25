@@ -68,8 +68,10 @@ textarea {
   align-items: center;
   gap: 10px;
 }
-.check input {
+#check  {
   width: 20px;
+  padding: 0;
+  
   
 }
 /* -----------------------------footer------------------------ */
