@@ -74,6 +74,19 @@ textarea {
   
   
 }
+button{
+  width: 30%;
+  padding:10px;
+  border: none;
+  background: orange;
+  transition: 1s ;
+  color:white;
+  font-weight:600;
+  margin: 0, auto;
+}
+button:hover{
+  background:darkorange ;
+}
 /* -----------------------------footer------------------------ */
 footer {
   text-align: center;
