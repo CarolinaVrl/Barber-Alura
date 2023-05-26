@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #cccccc;
+    display: flex;
+}
+
+.logo{
+    width: 70px;
+}
+.list_nav{
+    display: none;
+}
