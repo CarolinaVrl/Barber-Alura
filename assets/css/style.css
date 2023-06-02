@@ -15,3 +15,28 @@ header{
 .list_nav{
     display: none;
 }
+
+
+
+footer{
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+footer  img{
+    width: 80px;
+
+}
+
+.logo_footer{
+    text-align: center;
+}
+
+.list_footer li{
+    list-style: none;
+
+}
